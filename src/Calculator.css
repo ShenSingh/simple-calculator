@@ -1,0 +1,79 @@
+body{
+    background-color: #1d1e22;
+}
+.calculator {
+    width: 420px;
+    height: auto;
+    padding: 20px;
+    margin: 150px auto;
+    background: #1d1e22;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #FF9F1C, 0px 0px 10px 2px #FF4040;
+}
+input {
+    display: block;
+    width: 100%;
+    background:transparent;
+    border: none;
+    margin-bottom: 0px;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    line-height: 100px;
+    vertical-align: bottom; 
+    color: #d4d4dc;
+}
+    .resultInput{
+    height: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.textInput{
+    margin-top: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+.keypad button {
+    width: 80px; /* Equal width and height for a perfect circle */
+    height: 80px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%; 
+    text-align: center; 
+    border: #0000001f 0px solid;
+    /* line-height: 50px;  */
+}
+.number{
+    color: #FF9F1C;
+}
+.symble{
+    color: #FF4040;
+}
+#dot{
+    font-size: 30px;
+}
+
+.keypad button:hover {
+    
+    
+}
+.keypad button:active {
+    box-shadow: 0px 0px 5px 0px #FF9F1C, 0px 0px 10px 2px #FF4040;
+
+}
+#clear {
+
+}
+
+#result {
+    background: linear-gradient(to right, #FF9F1C, #FF4040);
+    color: white;
+    /* box-shadow: 0px 0px 10px 0px #FF7043, 0px 0px 20px 5px #FF5722; */
+}
+
