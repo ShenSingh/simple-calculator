@@ -68,7 +68,6 @@ input {
     text-align: center; 
     border: #0000001f 0px solid;
     color: #ffffff;
-    /* line-height: 50px;  */
 }
 
 .symble:hover {
@@ -81,9 +80,8 @@ input {
 }
 
 .keypad button:active {
-    background: linear-gradient(to right, #FF4040, #FF9F1C); /* Inverse gradient */
-    transition-duration: 0.5s;
-    border: 0px solid transparent;
+    transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    text-decoration: 0.3s;
 }
  #result:active{
     background: linear-gradient(to right, #FF4040, #FF9F1C); /* Inverse gradient */
