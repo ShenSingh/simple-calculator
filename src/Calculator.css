@@ -85,8 +85,11 @@ input {
     transition-duration: 0.5s;
     border: 0px solid transparent;
 }
-#clear {
+ #result:active{
+    background: linear-gradient(to right, #FF4040, #FF9F1C); /* Inverse gradient */
+    transition-duration: 0.5s;
+    border: 0px solid transparent;
+ }
 
-}
 
 
